@@ -1,0 +1,10 @@
+<header class="header" id="banner">
+  <div class="container">
+    <h1>Chat App</h1>
+    <button type="button" class="btn btn-success" ng-click="$ctrl.onClick()">Add Chat</button>
+  </div>
+</header>
+<div id="chatContainer">
+    <chat-iframe ng-repeat="chatName in $ctrl.chatNames" class="col-sm-4" chatname="{{chatName}}"></chat-iframe>
+</div>
+

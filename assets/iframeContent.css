@@ -1,0 +1,131 @@
+html {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.mytext{
+  border:0;padding:10px;width:75%;
+}
+.text{
+  width:185%; font-size: 16px;font-family: inherit;
+}
+.text > p:first-of-type{
+  width:100%;margin-top:0;margin-bottom:auto;font-size: 12px; color: #292a2c;font-family: inherit;
+}
+.text > p:last-of-type{
+  width:100%;margin-top:auto; font-size: 12px;color: #292a2c;font-family: inherit;
+}
+.text-l{
+  float:left;padding:3px;
+}
+.text-r{
+  float:right;padding:3px;
+}
+
+.img-circle{
+  border-radius: 20px;
+}
+
+.avatar{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:25%;
+  float:left;
+  padding-right:10px;
+}
+.macro{
+  margin-top:5px;width:85%;border-radius:5px;padding:5px;display:flex; height: 50px;
+}
+.msj-rta{
+  float:right;background:white;
+}
+.msj{
+  float:left;background:rgb(76, 174, 76);
+}
+.frame{
+  background:#e0e0de;
+  margin-top: 10px;
+  height:380px;
+  width: 385px;
+  overflow:hidden;
+  padding:0;
+  border: #222222 solid 1px;
+  border-radius: 2px;
+}
+.frame > form:last-of-type{
+  position:absolute;bottom:0;width:100%;display:flex;
+  padding:10px;
+  margin-bottom: 10px;
+}
+body > div > div > div:nth-child(2) > span{
+  background: rgb(76, 174, 76);padding: 10px;font-size: 21px;border-radius: 50%;
+}
+body > div > div > div.msj-rta.macro{
+  margin:auto;margin-left:1%;
+}
+ul {
+  width:100%;
+  list-style-type: none;
+  padding:18px;
+  position:absolute;
+  bottom:47px;
+  display:flex;
+  flex-direction: column;
+  top:5px;
+  overflow-y:scroll;
+}
+.msj:before{
+  width: 0;
+  height: 0;
+  content:"";
+  top:-5px;
+  left:-14px;
+  position:relative;
+  border-style: solid;
+  border-width: 0 13px 13px 0;
+  border-color: transparent rgb(76, 174, 76) transparent transparent;
+}
+.msj-rta:after{
+  width: 0;
+  height: 0;
+  content:"";
+  top:-5px;
+  left:14px;
+  position:relative;
+  border-style: solid;
+  border-width: 13px 13px 0 0;
+  border-color: white transparent transparent transparent;
+}
+input:focus{
+  outline: none;
+}
+
+button:focus {outline:0;}
+
+button i{
+  background-color: white;
+  border-radius: 20px;
+  border: white 4px solid;
+  color: rgb(76, 174, 76);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: grey;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: grey;
+}
