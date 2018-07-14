@@ -61,7 +61,7 @@ button {
   border-radius: 2px;
 }
 .frame > form:last-of-type{
-  position:absolute;bottom:0;width:100%;display:flex;
+  position:absolute;bottom:0;width:400px;display:flex;
   padding:10px;
   margin-bottom: 10px;
 }
@@ -72,7 +72,7 @@ body > div > div > div.msj-rta.macro{
   margin:auto;margin-left:1%;
 }
 ul {
-  width:100%;
+  width:400px;
   list-style-type: none;
   padding:18px;
   position:absolute;
